@@ -1,0 +1,20 @@
+
+benchmark_rate: 6.00
+
+fico_bands:
+  - {min: 0,   max: 679, bucket: 1}
+  - {min: 680, max: 719, bucket: 2}
+  - {min: 720, max: 759, bucket: 3}
+  - {min: 760, max: 850, bucket: 4}
+
+ltv_buckets:
+  - {min: 0,  max: 70, bucket: 1}
+  - {min: 70, max: 80, bucket: 2}
+  - {min: 80, max: 90, bucket: 3}
+  - {min: 90, max: 200, bucket: 4}
+
+high_risk_rules:
+  fico_min_threshold: 680
+  ltv_max_threshold: 80
+  dti_max_threshold: 45
+  mark_high_risk_if_any: true

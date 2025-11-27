@@ -1,0 +1,17 @@
+
+pool_size_target: 20
+size_penalty: 5.0
+
+credit_min: 680
+credit_penalty: 8.0
+ltv_max: 80
+ltv_penalty: 10.0
+
+geo_limits:
+  CA: 0.25
+  TX: 0.25
+  FL: 0.20
+
+geo_penalty: 6.0
+iterations: 300
+runs_for_variance: 30

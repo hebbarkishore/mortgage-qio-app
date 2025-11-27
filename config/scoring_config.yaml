@@ -1,0 +1,6 @@
+
+weights:
+  execution_value: 0.4
+  risk_adjusted_return: 0.3
+  prepayment: 0.2
+  servicing_cost: 0.1
